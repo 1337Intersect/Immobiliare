@@ -1,0 +1,65 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+__pycache__/
+*.pyc
+venv/
+env/
+ENV/
+
+# Django
+*.log
+logs/*.log
+server_output.log
+db.sqlite3
+db.sqlite3-journal
+*.db
+*.sqlite
+*.sqlite3
+/media/*
+!/media/.gitkeep
+!/media/foto/.gitkeep
+!/media/documenti/.gitkeep
+!/media/backup/.gitkeep
+/staticfiles
+/static
+*.pot
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+desktop.ini
+
+# Backup
+*.bak
+backup/
+
+# Environment
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# Traefik
+letsencrypt/
+logs/traefik/
+cv-site/
